@@ -100,6 +100,12 @@ p {
     text-align: center;
   }
 
+  .projects-link {
+    display: block;
+    text-align: center;
+    margin: 35px 40px;
+  }
+
   img {
     display: none;
   }
