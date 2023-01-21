@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #6c63ff;
+  --primary-color: #8b0100;
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
@@ -17,11 +17,11 @@ h3 {
 }
 
 h1 {
-  font-size: 96px;
+  font-size: 76px;
 }
 
 h2 {
-  font-size: 48px;
+  font-size: 40px;
 }
 
 h3 {
@@ -103,7 +103,7 @@ p {
   .projects-link {
     display: block;
     text-align: center;
-    margin: 35px 40px;
+    margin: 45px 30px;
   }
 
   img {
@@ -121,4 +121,28 @@ p {
     font-size: 14px;
     opacity: 0.7;
   }
+}
+
+#parrot {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-radius: 8px;
+  width: 230px;
+  box-shadow: var(--box-shadow);
+}
+
+#weather {
+  margin-top: 50px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+  width: 450px;
+  box-shadow: var(--box-shadow);
+}
+
+#HContactMe {
+  font-size: 36px;
+}
+
+#HGreetings {
+  font-size: 46px;
 }
