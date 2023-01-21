@@ -127,7 +127,6 @@ p {
   margin-top: 40px;
   margin-bottom: 40px;
   border-radius: 8px;
-  width: 230px;
   box-shadow: var(--box-shadow);
 }
 
@@ -135,7 +134,6 @@ p {
   margin-top: 50px;
   margin-bottom: 40px;
   border-radius: 10px;
-  width: 450px;
   box-shadow: var(--box-shadow);
 }
 
