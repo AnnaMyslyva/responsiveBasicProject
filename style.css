@@ -9,6 +9,10 @@ body {
   max-width: 800px;
 }
 
+.hero {
+  background-color: #fff9f1;
+}
+
 h1,
 h2,
 h3 {
@@ -31,10 +35,10 @@ h3 {
 
 p {
   background: var(--secondary-color);
-  padding: 20px;
+  padding: 25px;
   border-radius: 4px;
-  font-size: 18px;
-  line-height: 1.5;
+  font-size: 30px;
+  line-height: 2.5;
   text-align: center;
 }
 
