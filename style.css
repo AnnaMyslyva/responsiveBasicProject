@@ -29,9 +29,11 @@ h1 {
 h2 {
   font-size: 42px;
   font-family: Georgia, "Times New Roman", Times, serif;
+  margin-top: 25px;
 }
 
 h3 {
+  margin-top: 15px;
   font-size: 28px;
   opacity: 0.7;
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -151,7 +153,7 @@ p {
 }
 
 #parrot {
-  margin-top: 40px;
+  margin-top: 50px;
   margin-bottom: 40px;
   border-radius: 8px;
   box-shadow: var(--box-shadow);
