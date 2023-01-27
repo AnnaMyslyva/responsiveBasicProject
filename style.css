@@ -18,19 +18,23 @@ h2,
 h3 {
   text-align: center;
   margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 h1 {
-  font-size: 76px;
+  font-size: 78px;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 42px;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 h3 {
-  font-size: 24px;
+  font-size: 28px;
   opacity: 0.7;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 p {
@@ -40,12 +44,14 @@ p {
   font-size: 30px;
   line-height: 2.5;
   text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .navigation-links {
   display: flex;
   margin-top: 40px;
   justify-content: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .navigation-links a {
@@ -54,17 +60,20 @@ p {
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .contact-link {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .about-link {
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .homepage-link {
@@ -77,10 +86,13 @@ p {
   display: flex;
   margin: 30px 0;
   text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-.about-paragraphs p {
-  margin: 10px;
+#about-paragraphs {
+  margin-top: 35px;
+  font-size: 24px;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .email-link {
@@ -89,6 +101,7 @@ p {
   color: var(--primary-color);
   font-size: 28px;
   text-decoration: none;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .email-link:hover {
@@ -97,17 +110,20 @@ p {
 
 #contact {
   margin-top: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 @media (max-width: 576px) {
   .container {
     text-align: center;
+    font-family: Georgia, "Times New Roman", Times, serif;
   }
 
   .projects-link {
     display: block;
     text-align: center;
     margin: 45px 30px;
+    font-family: Georgia, "Times New Roman", Times, serif;
   }
 
   img {
@@ -115,16 +131,23 @@ p {
   }
 
   h1 {
-    font-size: 76px;
+    font-size: 86px;
   }
   h2 {
-    font-size: 28px;
+    font-size: 35px;
   }
 
   h3 {
-    font-size: 14px;
+    font-size: 25px;
     opacity: 0.7;
   }
+}
+
+#me {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-radius: 8px;
+  box-shadow: var(--box-shadow);
 }
 
 #parrot {
@@ -143,8 +166,10 @@ p {
 
 #HContactMe {
   font-size: 36px;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 #HGreetings {
   font-size: 46px;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
