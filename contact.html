@@ -26,50 +26,155 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="contact">
-      <h2 id="HContactMe">📮 Contact me</h2>
-    </div>
-    <div
-      class="contact-footer justify-content-between mb-5 d-none d-md-flex"
-    ></div>
-    <div class="social-medias d-flex justify-content-center mb-5">
-      <a
-        href="mailto:anna.myslyva@outlook.com"
-        title="Mail Anna Myslyva"
-        class="email-link"
-        style="font-size: 30px"
+    <div class="hero">
+      <nav
+        class="navbar sticky-top navbar-expand-lg navbar-light d-flex justify-content-between"
+        style="background-color: #e9ab92"
       >
-        anna.myslyva@outlook.com
-      </a>
-    </div>
-    <div class="social-medias d-flex justify-content-center">
-      <a
-        href="https://github.com/AnnaMyslyva"
-        title="My github"
-        target="_blank"
-      >
-        <i class="fa fa-github fa-4x" aria-hidden="true"
-          ><div class="text-center text-muted">My Github page</div></i
+        <div class="container-fluid">
+          <a
+            class="navbar-brand"
+            style="color: var(--primary-color)"
+            href="index.html"
+            title="Homepage"
+            >Anna Myslyva</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="index.html"
+                  style="color: var(--primary-color)"
+                  target="_blank"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="about.html"
+                  title="About Anna Myslyva"
+                  style="color: var(--primary-color)"
+                  target="_blank"
+                  >About me</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="contact.html"
+                  style="color: var(--primary-color)"
+                  target="_blank"
+                  >Contact me</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="projects.html"
+                  title="My projects"
+                  style="color: var(--primary-color)"
+                  target="_blank"
+                  >My projects</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="https://comfy-cascaron-5bc4de.netlify.app"
+                  title="Parrot Project"
+                  style="color: var(--primary-color)"
+                  target="_blank"
+                  >Parrot App</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="https://fabulous-starburst-267c95.netlify.app"
+                  title="WeatherApp Project"
+                  style="color: var(--primary-color)"
+                  style="color: var(--primary-color)"
+                  target="_blank"
+                  >Weather App</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div id="contact">
+        <h2 id="HContactMe">📮 Contact me</h2>
+      </div>
+      <div class="social-medias d-flex justify-content-center mb-5">
+        <a
+          href="mailto:anna.myslyva@outlook.com"
+          title="Mail Anna Myslyva"
+          class="email-link"
+          style="font-size: 30px"
         >
-      </a>
-      <a
-        href="https://www.instagram.com/ann_my94/?next=%2F"
-        title="My instagram"
-        target="_blank"
-      >
-        <i class="fa fa-instagram fa-4x" aria-hidden="true"
-          ><div class="text-center text-muted">My Instagram page</div></i
-        >
-      </a>
-      <a
-        href="https://www.linkedin.com/in/anna-myslyva-a14879162/"
-        title="My LinkedIn"
-        target="_blank"
-      >
-        <i class="fa fa-linkedin fa-4x" aria-hidden="true"
-          ><div class="text-center text-muted">My LinkedIn page</div></i
-        >
-      </a>
+          anna.myslyva@outlook.com
+        </a>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4 d-flex justify-content-evenly">
+            <div class="social-medias d-flex justify-content-center">
+              <a
+                href="https://github.com/AnnaMyslyva"
+                title="My github"
+                target="_blank"
+              >
+                <i class="fa fa-github fa-4x" aria-hidden="true"
+                  ><div class="text-center text-muted">My Github page</div></i
+                >
+              </a>
+            </div>
+          </div>
+          <div class="col-sm-4 d-flex justify-content-evenly">
+            <div class="social-medias d-flex justify-content-center">
+              <a
+                href="https://www.instagram.com/ann_my94/?next=%2F"
+                title="My instagram"
+                target="_blank"
+              >
+                <i class="fa fa-instagram fa-4x" aria-hidden="true"
+                  ><div class="text-center text-muted">
+                    My Instagram page
+                  </div></i
+                >
+              </a>
+            </div>
+          </div>
+          <div class="col-sm-4 d-flex justify-content-evenly">
+            <div class="social-medias d-flex justify-content-center">
+              <a
+                href="https://www.linkedin.com/in/anna-myslyva-a14879162/"
+                title="My LinkedIn"
+                target="_blank"
+              >
+                <i class="fa fa-linkedin fa-4x" aria-hidden="true"
+                  ><div class="text-center text-muted">My LinkedIn page</div></i
+                >
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
