@@ -176,6 +176,20 @@ p {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
+.social-medias a {
+  margin: 0 10px;
+  color: var(--primary-color);
+  padding: 10px 14px;
+  border-radius: 20%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+
+.social-medias a:hover {
+  color: var(--primary-color);
+  background: var(--secondary-color);
+}
+
 footer {
   margin: 50px 0;
 }
